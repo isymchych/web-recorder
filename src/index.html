@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Recorder</title>
+
+    <style>
+      .hidden {
+        display: none;
+      }
+
+      html, body {
+        width: 100%;
+        text-align: center;
+      }
+
+      body {
+        padding-top: 150px;
+      }
+
+      button {
+        width: 200px;
+        height: 80px;
+        cursor: pointer;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      audio {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="start">START RECORDING</button>
+    <button id="stop">STOP RECORDING</button>
+
+    <ul id="files"></ul>
+  </body>
+</html>
