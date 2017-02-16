@@ -1,5 +1,7 @@
 # web-recorder
 
+[DEMO](https://isymchych.github.io/web-recorder/)
+
 ## Usage
 
 First run `npm install`

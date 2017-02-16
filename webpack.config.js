@@ -1,3 +1,5 @@
+/* eslint-env node */
+
 const { resolve } = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -7,7 +9,7 @@ module.exports = {
   entry: './index.js',
 
   output: {
-    path: resolve(__dirname, 'dist'),
+    path: resolve(__dirname, 'docs'),
     filename: 'bundle.js',
   },
 
