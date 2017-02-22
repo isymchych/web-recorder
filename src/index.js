@@ -1,3 +1,4 @@
+import 'babel-polyfill';
 import Recorder from './recorder';
 
 const startBtn = document.getElementById('start');
